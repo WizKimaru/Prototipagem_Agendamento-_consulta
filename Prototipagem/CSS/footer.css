@@ -1,0 +1,19 @@
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    bottom: 0;
+    position: fixed;
+}
+
+.rodapé {
+    margin-top: -1%;
+}
+
+.rodapé img{
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+}

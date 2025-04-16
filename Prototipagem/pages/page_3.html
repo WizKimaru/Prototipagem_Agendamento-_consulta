@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    
+</head>
+<body >
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="page_sobre.html">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="page_4.html">Médicos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+            <a href="page_2.html"><button>Consulta</button></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="corpo">
+
+            <span class="titulo_cartaz">Confira nossa tabela de planos <br> <span class="titulo_cartaz_color">disponiveis</span> para assinatura</span>
+       <div class="cartázes">
+
+        
+        <div class="cartáz">
+            <span>plano</span>
+            <h4 class="B">Básico</h4>
+            <hr>
+            <p>R$</p>
+            <h1>12,99</h1>
+            <h5>Este plano conta com todos os serviços <br> e recuros essenciais que você precisa</h5>
+            <button>Adquirir</button>
+        </div>
+
+        <div class="cartáz cartáz_2">
+            <span>plano</span>
+            <h4 class="G">Gratuito</h4>
+            <hr>
+            <p>R$</p>
+            <h1>0,00</h1>
+            <h5>Aproveite e adiquira o plano gratuito <br>
+                 diponivel com a maioria dos serviços e recursos liberados</h5>
+                <button>Adquirir</button>
+        </div>
+
+        <div class="cartáz cartáz_3">
+            <span>plano</span>
+            <h4 class="P">Premium</h4>
+            <hr>
+            <p>R$</p>
+            <h1>24,99</h1>
+            <h5>Aqui você consegue o palno completo <br> com todos os recursos que a clinica pode oferecer</h5>
+            <button><a href="#" data-modal="jsBtnAbrir">Adquirir</a></button>
+        </div>
+       </div>
+    </div>
+
+    </main>
+
+    <!--Inicio Madal-->
+    <section class="modal_conteiner" data-modal="jsModal" data-anima="animation-top" >
+        <div class="modal">
+            <button class="btn_fechar_modal" data-modal="jsBtnFechar">voltar</button>
+
+            <span>Escolha a forma de pagamento</span>
+                <img src="../images/formasdepagamentovolk (1).webp" alt="">
+            
+        </div>
+    </section>
+    <!--Fim Madal-->
+    
+</body>
+<script src="../JavaScript/script.js"></script>
+</html>

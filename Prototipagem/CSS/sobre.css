@@ -1,0 +1,96 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #1F2B6C;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+}
+
+nav{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+nav ul a{
+    color: #BFD2F8;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: #91a5cf;
+    text-decoration: underline;
+}
+nav button{
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav button:hover{
+    transform: scale(1.1);
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    border: 4px solid #BFD2F8;
+}
+
+
+#main_sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.main_corpo_sobre{
+    border: 5px solid #1F2B6C;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    width: 70%;
+}
+.main_corpo_sobre h1{
+    color: #1F2B6C;
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.main_corpo_sobre{
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.main_corpo_sobre h4{
+    color: #159EEC;
+    font-family: "Work Sans", sans-serif;
+    
+}
+.main_corpo_sobre details{
+    transition: 1s;
+    margin-left: 50px;
+}
+.main_corpo_sobre details:hover{
+    transform: scale(1.05);
+}
+.main_corpo_sobre ul{
+    border: 5px solid #159EEC;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.main_corpo_sobre ul li{
+    list-style: none;
+}

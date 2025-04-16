@@ -1,0 +1,161 @@
+.corpo {
+    margin-top: 5.2%;
+}
+
+.titulo_cartaz {
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.titulo_cartaz_color{
+    font-size: 1.8rem;
+    color: darkblue;
+}
+
+.cartázes {
+    margin-top: 5%;
+    display: flex;
+    min-width: 1250px;
+    justify-content: space-between;
+}
+
+.cartáz {
+    background-color: #BFD2F8;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 0px;
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.cartáz:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 8px #656565;
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 20px;
+    }
+}
+
+.cartáz span {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 6%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.cartáz p {
+    font-weight: 500;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.cartáz h1 {
+
+    font-size: 3rem;
+    margin-left: 17%;
+    margin-right: auto;
+}
+
+.cartáz h4 {
+    
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+.cartáz h4:hover{
+    transform: scale(1.13);
+}
+
+.cartáz button {
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #1F2B6C;
+    color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 5%;
+}
+
+.cartáz_3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cartáz_3 button a:hover{
+    color: #000000;
+}
+
+.cartáz_2{
+    background-color: #1F2B6C;
+    color: #ffffff;
+}
+
+.cartáz_2 button{
+    background-color: #ffffff;
+    color:  #1F2B6C;
+}
+
+.cartáz_2 h5{
+    border: solid 1px;
+}
+
+hr{
+    margin-top: 2%;
+    width: 80%;
+}
+
+.cartáz h5{
+    width: 80%;
+    margin-top: 3%;
+    font-size: 1rem;
+    height: 15vh;
+    padding: 5% 5% 5% 5%;
+    
+    box-shadow: 0px 0px 20px #6565653f;
+    font-family: "Work Sans", sans-serif;
+}
+
+.cartáz button:hover {
+    transform: scale(1.1);
+    border: none;
+    background-color: #ffffff78;
+    color: #000000;
+}
+
+.G {
+    color: rgb(121, 101, 101);
+}
+
+.B {
+    color: #6f9bb3;
+}
+
+.P {
+    color: #B8860B;
+}
+

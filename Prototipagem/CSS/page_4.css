@@ -1,0 +1,69 @@
+#médicos {
+    
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.médicos_principal {
+    
+    width: 100%;
+    margin-top: 1%;
+    max-width: 1255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.médicos_principal_titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.médicos_principal_titulos h1 {
+    font-size: 2rem;
+    font-style: italic;
+
+}
+
+.médicos_principal_titulos span {
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+
+.médicos_principal_imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.médicos_principal_imagens img {
+    width: 30%;
+    height: 40%;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.8s;/*Propriedade que vai atuar trazendo mudanças para o elemento*/
+}
+
+.médicos_principal_imagens img:hover{
+    opacity: 1;
+}
+
+.médicos_principal a {
+    background-color: #181818;
+    color: #eee;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    font-weight: bold;  
+}
+   

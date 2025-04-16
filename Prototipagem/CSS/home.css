@@ -1,0 +1,89 @@
+#main_sobre{
+    border: 3px solid red;
+}
+
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main_corpo {
+    margin-top: 5%;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../Arquivos/62c016a7-0d1e-4323-9036-f31b8526a622.jpg');
+    background-size: cover;
+}
+
+.textos_main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+}
+
+.textos_main h3 {
+    color: #159EEC;
+    font-family: "Work Sans", sans-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    serif;
+}
+
+.textos_main h1 {
+    color: #1F2B6C;
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.textos_main button {
+    padding: 20px;
+    width: 270px;
+    border-radius: 30px;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.textos_main button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 4px solid #1F2B6C;
+}
