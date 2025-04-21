@@ -55,6 +55,8 @@ nav button:hover{
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-image: url(../images/hospital.jpg);
+    background-size: cover;
 }
 .main_corpo_sobre{
     border: 5px solid #1F2B6C;
